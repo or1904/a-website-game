@@ -1,0 +1,93 @@
+body
+{
+    background-color: black;
+    text-align: center;
+}
+@font-face
+{
+    font-family:determination;
+    src: url(DTM-Sans.otf);
+}
+.text
+{
+    color: white;
+    font-family:monospace;
+    /*animation: uppering 2s linear;*/ 
+    overflow:hidden;
+    white-space:nowrap;
+    font-family: determination;
+    font-size: 30px;
+}
+.text.red
+{
+    color: red;
+}
+.text.windings
+{
+     font-family: windings;
+}
+@keyframes uppering
+{
+    0%
+    {
+        width:0px;
+        margin-left:50%;
+        margin: auto;
+    }
+    100%
+    {
+        width:1000px;
+        margin-left:50%;
+        margin: auto;
+    }
+}
+.text.title
+{
+    font-size: 50px; 
+}
+.text.bigTitle
+{
+    font-size: 70px; 
+}
+.options
+{
+    /*margin-right: 700px;*/
+    color:lime;
+    /*padding-left: 40%;*/
+    background-image: url(pictures/tv%20screen%20full%20size%202.jpeg);
+    /*padding: 400px 200px;*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    text-align:left;
+    padding-top: 300px;
+    /*padding-left:450px*/;
+    padding-bottom: 500px;
+}
+.options > tdiv
+{
+    font-size: 60px;
+}
+/*.options > star
+{
+    margin: 0px 100px;
+}*/
+
+.options > div.onmouseover
+{
+    /*color: blue;*/
+    /*display: inline;*/
+}
+.options > div
+{
+    opacity: 0%;
+    display: inline;
+}
+.phone
+{
+    display: none;
+}
+media-queries(max-width:1024px)
+{
+    
+}

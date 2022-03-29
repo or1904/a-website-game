@@ -1,0 +1,165 @@
+body
+{
+    background: black;
+}
+#gaster
+{
+    margin-left: 290px;
+    background-image: url(pictures/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px 500px;
+}
+#focus
+{
+    text-align: center;
+    color: white;
+    font-family: determination;
+    font-size: 70px;
+}
+.textAnima
+{
+    background-color: black;
+    padding-left: 99%;
+    padding-bottom: 80px;
+    position: absolute;
+    background-size: cover;
+}
+.textAnima.b
+{
+    margin-top: 4.5%;
+}
+@font-face
+{
+    font-family:windings;
+    src: url(../../pixelated-wingdings.ttf);
+}
+@font-face
+{
+    font-family:determination;
+    src: url(../../DTM-Sans.otf);
+}
+.gaster
+{
+    font-family: windings;
+    color: white;
+    z-index: 110;
+    word-spacing: 0.5ch;
+    margin-left: 5px;
+}
+.opening
+{
+    font-size: 71px;
+}
+
+/*====================================================================================================================                   ====================================================================================================================*/
+
+#game
+{
+    display: none;
+}
+#gasHealth
+{
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color:#40ff00;
+    display: none;
+}
+#healthLeft
+{
+    font-family: determination;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    display: none;
+}
+#textGasHealth
+{
+    font-family: determination;
+    color: red;
+    font-size: 60px;
+    text-align: center;
+    display: none;
+}
+#damege
+{
+    font-family: determination;
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    display: none /*inline*/;
+    margin-left: 10px;
+}
+#endtext
+{
+    display: none;
+    position: fixed;
+    word-spacing: 100px;
+    font-family: determination;
+    color: white;
+    font-size: 80px;
+    margin-left: 590px;
+    margin-top: 5%;
+}
+#Headbut1
+{
+    margin-left: 450px;
+}
+#heart
+{
+    display: none;
+    text-align: center;
+    margin-left: 500px;
+    width: 500px;
+    height: 548px;
+    object-fit: contain;
+}
+#hp,#level
+{
+    font-family: determination;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+#warning
+{
+    color: red;
+    font-family: determination;
+    font-size: 18px;
+    text-align: center;
+}
+#hp
+{
+    margin-left: 650px;
+}
+#level
+{
+    font-weight: 900;
+}
+.button
+{
+    width: 200px;
+    height: 125px;
+    font-size: 30px;
+    font-family: determination;
+    font-weight: bolder;
+    color: orange;
+    border: solid 5px orange;
+    background-color: black;
+    display: inline;
+    margin: 25px 50px;
+}
+textarea
+{
+    width: 40ch;
+    height: 15ch;
+    overflow-y: scroll;
+    color: white;
+    background-color: black;
+    border: solid 8px white;
+    font-family: determination;
+    font-size: 30px;
+    margin-left: 250px;
+    resize: none;
+}

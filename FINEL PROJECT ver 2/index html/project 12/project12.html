@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>answer for quests 1 and 2</title>
+        <link rel="stylesheet" href="project12.css">
+        <script src="project12.js"></script>
+    </head>
+    <body onload="check()">
+        <frameset>
+            <div onclick="change(p=1)">blue</div>
+            <div onclick="change(p=2)">green</div>
+            <div onclick="change(p=3)">red</div>
+        </frameset>
+        <frameset>
+            <p id="color">color</p>
+        </frameset>
+        <form method="get" onload="send()" id="for">
+            <lebel>name:</lebel>
+            <input type="text"/ id="1" value="" />
+            <lebel>family name:</lebel>
+            <input type="text" id="2" value="" />
+            <lebel>age:</lebel>
+            <input type="number" id="3" value="" />
+            <br/>
+            <lebel>identify number:</lebel>
+            <input type="text" id="4" value="" />
+            <lebel>prefer job:</lebel>
+            <input type="text" id="5" value="" />
+            <br><br/>
+            <!--><button type="button" onclick="send()">send</button><!--> 
+            <input type="button" onclick="send()" value="send"/>
+            <span id="a"></span>
+            <span id="b"></span>
+            <span id="c"></span>
+            <span id="d"></span>
+            <span id="e"></span>
+            <span id="sign">True?</span>
+        </form>
+    </body>
+</html>

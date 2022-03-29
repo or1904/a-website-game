@@ -1,0 +1,37 @@
+body
+{
+    text-align: center;
+    font-size: 40px;
+}
+.moneyLink
+{
+    background-image: url("picturesM/dog.png");
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.button
+{
+    width: 300px; 
+    height: 100px;
+    border: solid 10px black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.button:hover
+{
+    border-color: burlywood;
+}
+.contiue
+{
+    color: burlywood;
+    font-weight: 900;
+    font-size: 80px;
+}
+#doogi
+{
+    position:absolute; 
+    display: none;
+}

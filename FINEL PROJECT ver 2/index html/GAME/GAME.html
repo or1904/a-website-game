@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EXPERIMENT</title>
+        <link rel="stylesheet" href="GAME.css">
+        <script src="GAME.js"></script>
+    </head>
+    <body onload="prepareAndWait()" onkeydown="WaitchechWebMulti()" onkeyup="WaitchechWebMulti()" id="body" onclick="startAndWait()">
+        <div id="endtext"></div>
+        <div id="healthLeft"></div>
+        <hr id="gasHealth"/>
+        <div id="textGasHealth"></div>
+        <img id="gaster">
+        <img id="heart">
+        <div id="focus">CLICK</div>
+        <div class="textAnima" id="anima1"></div>
+        <div class="textAnima b" id="anima2"></div>
+        <div class="gaster opening" id="g">DARKER DARKER AND YET DARKER</div>
+        
+        <br/>
+        <span id="game">
+            <div id="hp"></div>
+            <div id="damege"></div>
+            <div id="level"></div>
+            <div id="warning"></div>
+            <br/>
+            <textarea id="textbox" name="myname" dirname="myname.dir" readonly>--> * Something is blocking your way... (use the buttons below to react) </textarea>
+            <br/>
+            <button class="button" onclick="changeBut1()" onmousemove="hoverBut1()" onmouseout="cancelhoverBut1()" id="Headbut1">Attack</button>
+            <button class="button" onclick="changeBut2()" onmousemove="hoverBut2()" onmouseout="cancelhoverBut2()" id="but2">Dodge</button>
+            <button class="button" onclick="changeBut3()" onmousemove="hoverBut3()" onmouseout="cancelhoverBut3()" id="but3">(5) Items</button>
+        </span>
+    </body>
+</html>

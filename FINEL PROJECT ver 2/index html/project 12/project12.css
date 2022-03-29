@@ -1,0 +1,17 @@
+body
+{
+    text-align: center;
+}
+div
+{
+    display: inline;
+}
+span
+{
+    display: block;
+    font-size: 50px;
+}
+#sign
+{
+    display: none;
+}

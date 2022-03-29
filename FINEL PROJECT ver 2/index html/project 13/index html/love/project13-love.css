@@ -1,0 +1,48 @@
+body
+{
+    background-color: black;
+    text-align: center;
+    font-family:determination;
+    color: white;
+}
+@font-face
+{
+    font-family:determination;
+    src: url(../../../../DTM-Sans.otf);
+}
+h1
+{
+    font-size: 60px;
+    color: red;
+}
+h2
+{
+    font-size: 50px;
+}
+div
+{
+    text-align: left;
+    font-size: 30px;
+}
+.c1:hover,.c2:hover,.c3:hover,.c4:hover,.c5:hover,.c6:hover,.c7:hover,.c8:hover,.c9:hover,.c10:hover
+{
+    color: red;
+}
+.button
+{
+    width: 500px;
+    height: 200px;
+    margin: 100px 0px;
+    font-size: 80px;
+    font-family: determination;
+    font-weight: bolder;
+    color: orange;
+    border: solid 10px orange;
+    background-color: black;
+}
+
+.button:hover
+{
+    border-color: yellow;
+    color: yellow;
+}
