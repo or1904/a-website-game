@@ -12,6 +12,6 @@ background remix music by SharaX
 the rest is also Toby Fox.
 the drawings i didnt make were taking randomly from the internet, sorry but i didnt see who made them.
 * The rules are not written, the player (you) should figure them out by himself.
-* To play the game, download the whole file, then open the first html file in it which called "FINAL".
+* To play the game, download the whole file, then open the first html file in it which called "FINEL".
 
 Please leave your honest review on my game!
